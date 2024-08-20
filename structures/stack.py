@@ -29,6 +29,8 @@ stack.push(24)
 stack.push(32)
 stack.push(47)
 
+
+
 while not stack.is_empty():
     print(f"Última a entrar: {stack.peek()}")
     print(f"Tamanho: {len(stack)}")
