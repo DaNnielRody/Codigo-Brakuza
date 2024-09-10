@@ -23,9 +23,9 @@ def calculate_statistics(numbers):
     print(f"Smallest number: {smallest}")
     print(f"Average: {average:.2f}")
 
-def main():
-    numbers = get_numbers()
-    if numbers:
-        calculate_statistics(numbers)
-    else:
-        print("No numbers were entered.")
+
+numbers = get_numbers()
+if numbers:
+    calculate_statistics(numbers)
+else:
+    print("No numbers were entered.")
